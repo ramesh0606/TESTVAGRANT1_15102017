@@ -1,0 +1,3 @@
+CLEARTRIP_URL=https://www.cleartrip.com/
+##Chrome|Firefox|IE
+browserType=Chrome

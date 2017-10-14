@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="vigranttest" duration-ms="36975" started-at="2017-10-14T21:22:46Z" finished-at="2017-10-14T21:23:23Z">
+    <groups>
+    </groups>
+    <test name="FlightBookingTest" duration-ms="13771" started-at="2017-10-14T21:22:46Z" finished-at="2017-10-14T21:23:00Z">
+      <class name="com.vagrant.test.FlightBookingTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.vagrant.test.FlightBookingTest@100fc185]" name="setup" is-config="true" duration-ms="9453" started-at="2017-10-15T02:52:46Z" finished-at="2017-10-15T02:52:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testThatResultsAppearForAOneWayJourney()[pri:0, instance:com.vagrant.test.FlightBookingTest@100fc185]" name="testThatResultsAppearForAOneWayJourney" duration-ms="4302" started-at="2017-10-15T02:52:56Z" finished-at="2017-10-15T02:53:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThatResultsAppearForAOneWayJourney -->
+      </class> <!-- com.vagrant.test.FlightBookingTest -->
+    </test> <!-- FlightBookingTest -->
+    <test name="HotelBookingTest" duration-ms="13150" started-at="2017-10-14T21:23:00Z" finished-at="2017-10-14T21:23:13Z">
+      <class name="com.vagrant.test.HotelBookingTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.vagrant.test.HotelBookingTest@26be92ad]" name="setup" is-config="true" duration-ms="8272" started-at="2017-10-15T02:53:00Z" finished-at="2017-10-15T02:53:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="shouldBeAbleToSearchForHotels()[pri:0, instance:com.vagrant.test.HotelBookingTest@26be92ad]" name="shouldBeAbleToSearchForHotels" duration-ms="4876" started-at="2017-10-15T02:53:08Z" finished-at="2017-10-15T02:53:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToSearchForHotels -->
+      </class> <!-- com.vagrant.test.HotelBookingTest -->
+    </test> <!-- HotelBookingTest -->
+    <test name="SignInTest" duration-ms="10028" started-at="2017-10-14T21:23:13Z" finished-at="2017-10-14T21:23:23Z">
+      <class name="com.vagrant.test.SignInTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.vagrant.test.SignInTest@4501b7af]" name="setup" is-config="true" duration-ms="7791" started-at="2017-10-15T02:53:13Z" finished-at="2017-10-15T02:53:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="shouldThrowAnErrorIfSignInDetailsAreMissing()[pri:0, instance:com.vagrant.test.SignInTest@4501b7af]" name="shouldThrowAnErrorIfSignInDetailsAreMissing" duration-ms="2236" started-at="2017-10-15T02:53:21Z" finished-at="2017-10-15T02:53:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldThrowAnErrorIfSignInDetailsAreMissing -->
+      </class> <!-- com.vagrant.test.SignInTest -->
+    </test> <!-- SignInTest -->
+  </suite> <!-- vigranttest -->
+</testng-results>

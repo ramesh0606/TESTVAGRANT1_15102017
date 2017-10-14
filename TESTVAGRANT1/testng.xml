@@ -1,0 +1,32 @@
+<suite name="vigranttest">
+
+	<test name="FlightBookingTest">
+
+		<classes>
+
+			<class name="com.vagrant.test.FlightBookingTest">
+			</class>
+
+		</classes>
+	</test>
+
+	<test name="HotelBookingTest">
+		<classes>
+
+			<class name="com.vagrant.test.HotelBookingTest">
+			</class>
+
+		</classes>
+	</test>
+
+	<test name="SignInTest">
+		<classes>
+
+			<class name="com.vagrant.test.SignInTest">
+			</class>
+
+		</classes>
+	</test>
+
+
+</suite>

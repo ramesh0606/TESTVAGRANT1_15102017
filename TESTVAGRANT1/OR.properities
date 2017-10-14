@@ -1,0 +1,8 @@
+Oneway=//input[@id='OneWay']
+From=//input[@id='FromTag']
+To=//input[@id='ToTag']
+YourTrip=//span[text()='Your trips']
+SingIn=//input[@id='SignIn']
+signInButton=//button[@id='signInButton']
+errorOnLogin=//div[@id='errors1']
+Hotels=//*[@href='/hotels'][text()='Hotels']
